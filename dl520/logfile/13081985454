@@ -1,34 +1,32 @@
+[{'path': '/', 'secure': False, 'name': '_T_WM', 'value': 'ba9b28824e7b20b5d115ba8c9b8e62a3', 'expiry': 1504618044.618137, 'httpOnly': True, 'domain': '.weibo.cn'}]
  (￣y▽￣)╭可能登录失败了手动登录一下吧
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-1")>, <selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-2")>, <selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-3")>, <selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-4")>, <selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-5")>, <selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-6")>, <selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-7")>, <selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-8")>, <selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-9")>, <selenium.webdriver.remote.webelement.WebElement (session="6a7320c7809fc41b8d4f2478a8afb558", element="0.2742178167960241-10")>]
-伦哥：好棒！第1次运行了
-运行时间：2017-08-06 00:48:20
-冻结条数：102
-伦哥说君宝一共伦了102条微博，还要加油哟
-冻结时间：2017-08-06 01:42:01
-解封时间：2017-08-06 05:42:00
-伦哥：好棒！第1次运行了
-运行时间：2017-08-06 05:42:00
-冻结条数：102
-伦哥说君宝一共伦了102条微博，还要加油哟
-冻结时间：2017-08-06 06:37:38
-解封时间：2017-08-06 10:37:38
-伦哥：好棒！第1次运行了
-运行时间：2017-08-06 10:37:38
+伦哥：呜呜呜，13081985454----abc12345 这个号不能用啦 
 Traceback (most recent call last):
-  File "test_repost_new.py", line 245, in <module>
-    pwd = "abc12123"
-  File "test_repost_new.py", line 201, in repost
-    print(time.strftime('运行时间：%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
-    return self.find_element(by=By.TAG_NAME, value=name)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
-    'value': value})['value']
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
-    self.error_handler.check_response(response)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: chrome not reachable
-  (Session info: chrome=60.0.3112.90)
-  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
-
+  File "my_repost.py", line 187, in <module>
+    cookie3 = driver1.get_cookies()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 661, in get_cookies
+    return self.execute(Command.GET_ALL_COOKIES)['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 487, in _request
+    self._conn.request(method, parsed_url.path, body, headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1083, in request
+    self._send_request(method, url, body, headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1079, in endheaders
+    self._send_output(message_body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 911, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 854, in send
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 826, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 707, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 698, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused

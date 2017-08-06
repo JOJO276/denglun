@@ -1,18 +1,170 @@
-Traceback (most recent call last):
-  File "test_repost_new.py", line 239, in <module>
-    driver1 = initWork()
-  File "test_repost_new.py", line 24, in initWork
-    brower = webdriver.Chrome(chromedriver)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/chrome/webdriver.py", line 69, in __init__
-    desired_capabilities=desired_capabilities)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 98, in __init__
-    self.start_session(desired_capabilities, browser_profile)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 188, in start_session
-    response = self.execute(Command.NEW_SESSION, parameters)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
-    self.error_handler.check_response(response)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally
-  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
-
+[{'value': 'c6fd42f50b8219f245a4a44ff1b3efd8', 'httpOnly': True, 'domain': '.weibo.cn', 'path': '/', 'name': '_T_WM', 'secure': False, 'expiry': 1504611077.288548}, {'value': 'Ar_67tdAbqQXAFRNOFDqgZLketvdzctOGhKbS47V3-chDAuz4mKCOAeZsiFdmkoffP0vWsTZFhX9QTAO0fi4ELA.', 'httpOnly': True, 'domain': '.weibo.cn', 'path': '/', 'name': 'SCF', 'secure': False, 'expiry': 1817379082.774013}, {'value': '1502019082', 'name': 'SSOLoginState', 'secure': False, 'path': '/', 'httpOnly': False, 'domain': '.weibo.cn'}, {'value': 'luicode%3D20000174%26uicode%3D20000174%26featurecode%3D20000320%26fid%3Dhotword', 'httpOnly': True, 'domain': '.weibo.cn', 'path': '/', 'name': 'M_WEIBOCN_PARAMS', 'secure': False, 'expiry': 1502019684.554052}, {'value': '0u5R-zsvaEqxH2', 'httpOnly': False, 'domain': '.weibo.cn', 'path': '/', 'name': 'SUHB', 'secure': False, 'expiry': 1533555082.879437}, {'value': '_2A250go5TDeRhGeBN61ER9izMyDyIHXVXjBIbrDV6PUJbkdANLVX8kW0w2JixP3uAqJ2_q7HdaaLSI0_obg..', 'httpOnly': True, 'domain': '.weibo.cn', 'path': '/', 'name': 'SUB', 'secure': False, 'expiry': 1533555075.878048}]
+判断页面1成功 0失败  结果是=1
+[<selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-1")>, <selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-2")>, <selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-3")>, <selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-4")>, <selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-5")>, <selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-6")>, <selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-7")>, <selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-8")>, <selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-9")>, <selenium.webdriver.remote.webelement.WebElement (session="261a54a84a58c5e10c0449c5e304bb49", element="0.6021194175683415-10")>]
+伦哥：好棒！第1次运行了
+运行时间：2017-08-06 19:31:31
+1
+False
+2
+False
+3
+False
+4
+False
+5
+False
+6
+False
+7
+False
+8
+False
+9
+False
+10
+False
+11
+False
+12
+False
+13
+False
+14
+False
+15
+False
+16
+False
+17
+False
+18
+False
+19
+False
+20
+False
+21
+False
+22
+False
+23
+False
+24
+False
+25
+False
+26
+False
+27
+False
+28
+False
+29
+False
+30
+False
+31
+False
+32
+False
+33
+False
+34
+False
+35
+False
+36
+False
+37
+False
+38
+False
+39
+False
+40
+False
+41
+False
+42
+False
+43
+False
+44
+False
+45
+False
+46
+False
+47
+False
+48
+False
+49
+False
+50
+False
+51
+False
+52
+False
+53
+False
+54
+False
+55
+False
+56
+False
+57
+False
+58
+False
+59
+False
+60
+False
+61
+False
+62
+False
+63
+False
+64
+False
+65
+False
+66
+False
+67
+False
+68
+False
+69
+False
+70
+False
+71
+False
+72
+False
+73
+False
+74
+False
+75
+False
+76
+False
+77
+False
+78
+False
+79
+False
+80
+False
+81
+False
+冻结条数：81
+伦哥说君宝这次伦了81条博，一共伦了81条博了，还要加油哟
+冻结时间：2017-08-06 20:20:47

@@ -1,32 +1,171 @@
+[{'value': 'f87818586d28d5cb800701b540bae907', 'domain': '.weibo.cn', 'path': '/', 'expiry': 1504617684.4356637, 'httpOnly': True, 'secure': False, 'name': '_T_WM'}]
  (￣y▽￣)╭可能登录失败了手动登录一下吧
-判断页面1成功 0失败  结果是=0
-页面还没加载出来呢
-伦哥：呜呜呜，iacen@icloud.com 这个号不能用啦
-Traceback (most recent call last):
-  File "my_repost.py", line 181, in <module>
-    cookie3 = driver1.get_cookies()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 661, in get_cookies
-    return self.execute(Command.GET_ALL_COOKIES)['value']
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
-    response = self.command_executor.execute(driver_command, params)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
-    return self._request(command_info[0], url, body=data)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 487, in _request
-    self._conn.request(method, parsed_url.path, body, headers)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1083, in request
-    self._send_request(method, url, body, headers)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1128, in _send_request
-    self.endheaders(body)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1079, in endheaders
-    self._send_output(message_body)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 911, in _send_output
-    self.send(msg)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 854, in send
-    self.connect()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 826, in connect
-    (self.host,self.port), self.timeout, self.source_address)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 707, in create_connection
-    raise err
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 698, in create_connection
-    sock.connect(sa)
-ConnectionRefusedError: [Errno 61] Connection refused
+判断页面1成功 0失败  结果是=1
+[<selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-1")>, <selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-2")>, <selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-3")>, <selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-4")>, <selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-5")>, <selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-6")>, <selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-7")>, <selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-8")>, <selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-9")>, <selenium.webdriver.remote.webelement.WebElement (session="537a1a3838b288ec7aecceaf633805b2", element="0.7439207840396465-10")>]
+伦哥：好棒！第1次运行了
+运行时间：2017-08-06 21:21:59
+1
+False
+2
+False
+3
+False
+4
+False
+5
+False
+6
+False
+7
+False
+8
+False
+9
+False
+10
+False
+11
+False
+12
+False
+13
+False
+14
+False
+15
+False
+16
+False
+17
+False
+18
+False
+19
+False
+20
+False
+21
+False
+22
+False
+23
+False
+24
+False
+25
+False
+26
+False
+27
+False
+28
+False
+29
+False
+30
+False
+31
+False
+32
+False
+33
+False
+34
+False
+35
+False
+36
+False
+37
+False
+38
+False
+39
+False
+40
+False
+41
+False
+42
+False
+43
+False
+44
+False
+45
+False
+46
+False
+47
+False
+48
+False
+49
+False
+50
+False
+51
+False
+52
+False
+53
+False
+54
+False
+55
+False
+56
+False
+57
+False
+58
+False
+59
+False
+60
+False
+61
+False
+62
+False
+63
+False
+64
+False
+65
+False
+66
+False
+67
+False
+68
+False
+69
+False
+70
+False
+71
+False
+72
+False
+73
+False
+74
+False
+75
+False
+76
+False
+77
+False
+78
+False
+79
+False
+80
+False
+81
+False
+冻结条数：81
+伦哥说君宝这次伦了81条博，一共伦了81条博了，还要加油哟
+冻结时间：2017-08-06 22:05:15

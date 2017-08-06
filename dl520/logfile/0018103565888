@@ -1,21 +1,18 @@
-判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-1")>, <selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-2")>, <selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-3")>, <selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-4")>, <selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-5")>, <selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-6")>, <selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-7")>, <selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-8")>, <selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-9")>, <selenium.webdriver.remote.webelement.WebElement (session="bd27f11ccf4b0437ef215cd0fad2587c", element="0.18392360812194242-10")>]
-伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:42:53
 Traceback (most recent call last):
-  File "test_repost_new.py", line 251, in <module>
-    #        print(cookie3)
-  File "test_repost_new.py", line 210, in repost
-    browser.get(tweet_url)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
-    return self.find_element(by=By.TAG_NAME, value=name)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
-    'value': value})['value']
+  File "my_repost.py", line 180, in <module>
+    driver1 = initWork()
+  File "my_repost.py", line 24, in initWork
+    brower = webdriver.Chrome(chromedriver)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/chrome/webdriver.py", line 69, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 98, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 188, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
     self.error_handler.check_response(response)
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"textarea"}
-  (Session info: chrome=60.0.3112.90)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: crashed
   (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
 

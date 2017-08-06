@@ -1,21 +1,13 @@
-判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-1")>, <selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-2")>, <selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-3")>, <selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-4")>, <selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-5")>, <selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-6")>, <selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-7")>, <selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-8")>, <selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-9")>, <selenium.webdriver.remote.webelement.WebElement (session="723b556921ae41e3adbfb507a95b12d6", element="0.7958641772231607-10")>]
-伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:37:22
 Traceback (most recent call last):
-  File "test_repost_new.py", line 250, in <module>
-    #        print('33333333')
-  File "test_repost_new.py", line 209, in repost
-    browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 't')
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
-    return self.find_element(by=By.TAG_NAME, value=name)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
-    'value': value})['value']
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
-    self.error_handler.check_response(response)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"textarea"}
-  (Session info: chrome=60.0.3112.90)
-  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
+  File "my_repost.py", line 180, in <module>
+    driver1 = initWork()
+  File "my_repost.py", line 24, in initWork
+    brower = webdriver.Chrome(chromedriver)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/chrome/webdriver.py", line 62, in __init__
+    self.service.start()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/common/service.py", line 96, in start
+    self.assert_process_still_running()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/common/service.py", line 109, in assert_process_still_running
+    % (self.path, return_code)
+selenium.common.exceptions.WebDriverException: Message: Service /Applications/Google Chrome.app/chromedriver unexpectedly exited. Status code was: 1
 

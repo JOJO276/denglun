@@ -1,28 +1,11 @@
-判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-1")>, <selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-2")>, <selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-3")>, <selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-4")>, <selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-5")>, <selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-6")>, <selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-7")>, <selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-8")>, <selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-9")>, <selenium.webdriver.remote.webelement.WebElement (session="13cd065166aa289ee9fa1f50bc40a568", element="0.9054987863725574-10")>]
-伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:35:50
 Traceback (most recent call last):
-  File "test_repost_new.py", line 250, in <module>
-    #        print('33333333')
-  File "test_repost_new.py", line 221, in repost
-    sleep(10)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/support/expected_conditions.py", line 339, in __call__
-    alert.text
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/common/alert.py", line 69, in text
-    return self.driver.execute(Command.GET_ALERT_TEXT)["value"]
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
-    response = self.command_executor.execute(driver_command, params)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
-    return self._request(command_info[0], url, body=data)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 488, in _request
-    resp = self._conn.getresponse()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1174, in getresponse
-    response.begin()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 282, in begin
-    version, status, reason = self._read_status()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 243, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 571, in readinto
-    return self._sock.recv_into(b)
-ConnectionResetError: [Errno 54] Connection reset by peer
+  File "my_repost.py", line 10, in <module>
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/__init__.py", line 20, in <module>
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/chrome/webdriver.py", line 21, in <module>
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 658, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 763, in get_code
+  File "<frozen importlib._bootstrap_external>", line 815, in get_data
+OSError: [Errno 23] Too many open files in system: '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/chrome/options.py'

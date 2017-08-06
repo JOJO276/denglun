@@ -63,38 +63,41 @@ def handleLogin(brower, username, password):
     cookie2 = brower.get_cookies()
     # 将获得cookie的信息打印
     #    print('222222222')
-    #    print(cookie2)
+    print(cookie2)
 
     # 判断是否登录成功
     if cookie1 == cookie2:
-        print(u' (￣y▽￣)╭可能登录失败了手动登录一下吧')
+        print(' (￣y▽￣)╭可能登录失败了手动登录一下吧')
         sleep(30)
     else:
         wait = WebDriverWait(brower, 30)
         elems = wait.until(lambda brower: brower.find_elements_by_css_selector(
             'div.line-around.layout-box.mod-pagination > a:nth-child(2) > div > select > option'))
-
+    cookie4 = brower.get_cookies()
+    # getDomain()
+    # https://m.weibo.cn/security?#sms
     # 获取信息
     while 1:  # 循环条件为1必定成立
         result = isPresent()
-        print(u'判断页面1成功 0失败  结果是=%d' % result)
+        print('判断页面1成功 0失败  结果是=%d' % result)
         if result == 1:
             elems = brower.find_elements_by_css_selector(
                 'div.line-around.layout-box.mod-pagination > a:nth-child(2) > div > select > option')
-            print(elems)
-            return elems
+            if elems:
+                print(elems)
+                return elems
+            else:
+                with open('/Users/jojo/PycharmProjects/denglun/dl520'
+                          '/sinaAccount.file/inactive.txt', 'a+') as account:
+                    account.write(username + '----' + password + '\n')
+                print('伦哥：呜呜呜，%s----%s 这个号不能用啦 ' % (username, password))
+                sleep(20)
+                brower.close()
+                brower.quit()  # 说明登陆失败，号需要激活，退出浏览器
             break
         else:
-            print(u'页面还没加载出来呢')
+            print('页面还没加载出来呢')
             sleep(20)
-            brower.quit()#说明登陆失败，号需要激活，退出浏览器
-            with open('/Users/jojo/PycharmProjects/denglun/yd'
-                      '/untitled3/sinaAccount.file/inactive.txt','a+') as account:
-                account.write(username + '----' + password + '\n')
-            print('伦哥：呜呜呜，%s 这个号不能用啦' %username)
-
-            break
-
 
 # 判断元素是否存在
 def isPresent():
@@ -108,7 +111,8 @@ def isPresent():
 #'4136242172004022',1
 #'4136242033629515',2
 def repost(browser):
-    idSet = ['4137137030367692', '4137563058884003', '4137636395922996']
+#    idSet = ['4136242172004022', '4136242033629515', '4137563058884003']
+    idSet = ['4137856689393664', '4137856425867331', '4137856291796034']
     result = EC.alert_is_present()(browser)
 
     flag = 1
@@ -126,10 +130,10 @@ def repost(browser):
             count = count + 1
             sum_num = 0
             print('伦哥：好棒！第%d次运行了' % count)
-            i = 95
+            i = 0
             print(time.strftime('运行时间：%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
             with open("poem2", 'r') as file:
-                if i < 100:
+                while i < 80:
                     if result:
                         break
                     for id in idSet:
@@ -168,10 +172,12 @@ def repost(browser):
 
 if __name__ == '__main__':
     # 定义自己的用户名密码
-    #    usrname = sys.argv[1]
-    usrname = "iacen@icloud.com"
-    #    pwd = sys.argv[2]
-    pwd = "abc12123"
+    usrname = sys.argv[1]
+    # usrname = 17152569488
+    # pwd = 'youxia5533'
+    # usrname = "iacen@icloud.com"
+    pwd = sys.argv[2]
+    # pwd = "abc12123"
     driver1 = initWork()
     sleep(3)
     #    driver2 = initWork()

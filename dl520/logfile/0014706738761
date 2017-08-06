@@ -1,28 +1,170 @@
+[{'name': '_T_WM', 'secure': False, 'path': '/', 'domain': '.weibo.cn', 'value': '1eccc1ce3446dee15e50f91e751f53c2', 'httpOnly': True, 'expiry': 1504610287.546424}, {'name': 'SCF', 'secure': False, 'path': '/', 'domain': '.weibo.cn', 'value': 'AnE4ByF5Eacc229riQ-u1CWwEgD_lGb-bksXNf9pRNS3suBxGua1vusyApDcNc5NFLiy3OlonteldDLwSCR_qeQ.', 'httpOnly': True, 'expiry': 1817378292.909397}, {'name': 'SSOLoginState', 'secure': False, 'path': '/', 'domain': '.weibo.cn', 'value': '1502018293', 'httpOnly': False}, {'name': 'M_WEIBOCN_PARAMS', 'secure': False, 'path': '/', 'domain': '.weibo.cn', 'value': 'uicode%3D20000174', 'httpOnly': False, 'expiry': 1502018893.260444}, {'name': 'SUHB', 'secure': False, 'path': '/', 'domain': '.weibo.cn', 'value': '0ebt76-z8T2xjK', 'httpOnly': False, 'expiry': 1533554293.033498}, {'name': 'SUB', 'secure': False, 'path': '/', 'domain': '.weibo.cn', 'value': '_2A250goqlDeRhGeBM4lsT9SrNyzSIHXVXjBbtrDV6PUJbkdANLWvfkW09cWIKr7o1ZXTM8oTptjRDvddZQg..', 'httpOnly': True, 'expiry': 1533554293.032319}]
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-1")>, <selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-2")>, <selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-3")>, <selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-4")>, <selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-5")>, <selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-6")>, <selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-7")>, <selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-8")>, <selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-9")>, <selenium.webdriver.remote.webelement.WebElement (session="477c0084ed264fe1373a8d491c8de834", element="0.4758482402312687-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-1")>, <selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-2")>, <selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-3")>, <selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-4")>, <selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-5")>, <selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-6")>, <selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-7")>, <selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-8")>, <selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-9")>, <selenium.webdriver.remote.webelement.WebElement (session="da7a7cfef1c187bbb00204aa073c1dae", element="0.1575056090559852-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:38:20
-Traceback (most recent call last):
-  File "test_repost_new.py", line 250, in <module>
-    #        print('33333333')
-  File "test_repost_new.py", line 219, in repost
-    send = browser.find_element_by_class_name('m-send-btn')
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
-    return self.find_element(by=By.TAG_NAME, value=name)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
-    'value': value})['value']
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
-    response = self.command_executor.execute(driver_command, params)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
-    return self._request(command_info[0], url, body=data)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 488, in _request
-    resp = self._conn.getresponse()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1174, in getresponse
-    response.begin()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 282, in begin
-    version, status, reason = self._read_status()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 243, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 571, in readinto
-    return self._sock.recv_into(b)
-ConnectionResetError: [Errno 54] Connection reset by peer
+运行时间：2017-08-06 19:18:14
+1
+False
+2
+False
+3
+False
+4
+False
+5
+False
+6
+False
+7
+False
+8
+False
+9
+False
+10
+False
+11
+False
+12
+False
+13
+False
+14
+False
+15
+False
+16
+False
+17
+False
+18
+False
+19
+False
+20
+False
+21
+False
+22
+False
+23
+False
+24
+False
+25
+False
+26
+False
+27
+False
+28
+False
+29
+False
+30
+False
+31
+False
+32
+False
+33
+False
+34
+False
+35
+False
+36
+False
+37
+False
+38
+False
+39
+False
+40
+False
+41
+False
+42
+False
+43
+False
+44
+False
+45
+False
+46
+False
+47
+False
+48
+False
+49
+False
+50
+False
+51
+False
+52
+False
+53
+False
+54
+False
+55
+False
+56
+False
+57
+False
+58
+False
+59
+False
+60
+False
+61
+False
+62
+False
+63
+False
+64
+False
+65
+False
+66
+False
+67
+False
+68
+False
+69
+False
+70
+False
+71
+False
+72
+False
+73
+False
+74
+False
+75
+False
+76
+False
+77
+False
+78
+False
+79
+False
+80
+False
+81
+False
+冻结条数：81
+伦哥说君宝这次伦了81条博，一共伦了81条博了，还要加油哟
+冻结时间：2017-08-06 20:07:11

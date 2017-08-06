@@ -1,38 +1,86 @@
+[{'httpOnly': True, 'expiry': 1504610590.234772, 'value': '3bab527e1b7bac37d1c5c3ab92b43322', 'name': '_T_WM', 'path': '/', 'domain': '.weibo.cn', 'secure': False}, {'httpOnly': True, 'expiry': 1817378595.853167, 'value': 'AoFVE_FrEzYgMrPaSIyo6yoVhuTDJ9r0lFX4wLa0C4bfYqBmTD7FbOggPKkf7jbfpdAIZ4gdss203i9PaTmqqS4.', 'name': 'SCF', 'path': '/', 'domain': '.weibo.cn', 'secure': False}, {'httpOnly': False, 'value': '1502018596', 'secure': False, 'name': 'SSOLoginState', 'path': '/', 'domain': '.weibo.cn'}, {'httpOnly': False, 'expiry': 1502019196.169413, 'value': 'uicode%3D20000174', 'name': 'M_WEIBOCN_PARAMS', 'path': '/', 'domain': '.weibo.cn', 'secure': False}, {'httpOnly': False, 'expiry': 1533554595.941897, 'value': '0mxU8B6BXArx0U', 'name': 'SUHB', 'path': '/', 'domain': '.weibo.cn', 'secure': False}, {'httpOnly': True, 'expiry': 1533554594.94144, 'value': '_2A250goxzDeRhGeBN61ER9C3EyTyIHXVXjBQ7rDV6PUJbkdAKLVLAkW1EVZDQ2rtu_us2VJRb0Vlgq35OOw..', 'name': 'SUB', 'path': '/', 'domain': '.weibo.cn', 'secure': False}]
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-1")>, <selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-2")>, <selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-3")>, <selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-4")>, <selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-5")>, <selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-6")>, <selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-7")>, <selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-8")>, <selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-9")>, <selenium.webdriver.remote.webelement.WebElement (session="838d67c9546e64d5b9a03e754af9787e", element="0.3209759185759866-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-1")>, <selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-2")>, <selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-3")>, <selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-4")>, <selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-5")>, <selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-6")>, <selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-7")>, <selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-8")>, <selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-9")>, <selenium.webdriver.remote.webelement.WebElement (session="c345b1c1ee02bd24655ad79f6e53c806", element="0.6279436769071736-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:43:25
+运行时间：2017-08-06 19:23:18
+1
+False
+2
+False
+3
+False
+4
+False
+5
+False
+6
+False
+7
+False
+8
+False
+9
+False
+10
+False
+11
+False
+12
+False
+13
+False
+14
+False
+15
+False
+16
+False
+17
+False
+18
+False
+19
+False
+20
+False
+21
+False
+22
+False
+23
+False
+24
+False
+25
+False
+26
+False
+27
+False
+28
+False
+29
+False
+30
+False
+31
+False
+32
+False
 Traceback (most recent call last):
-  File "test_repost_new.py", line 251, in <module>
-    #        print(cookie3)
-  File "test_repost_new.py", line 210, in repost
-    browser.get(tweet_url)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
-    return self.find_element(by=By.TAG_NAME, value=name)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
-    'value': value})['value']
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
-    response = self.command_executor.execute(driver_command, params)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
-    return self._request(command_info[0], url, body=data)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 487, in _request
-    self._conn.request(method, parsed_url.path, body, headers)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1083, in request
-    self._send_request(method, url, body, headers)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1128, in _send_request
-    self.endheaders(body)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1079, in endheaders
-    self._send_output(message_body)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 911, in _send_output
-    self.send(msg)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 854, in send
-    self.connect()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 826, in connect
-    (self.host,self.port), self.timeout, self.source_address)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 707, in create_connection
-    raise err
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 693, in create_connection
-    sock = socket(af, socktype, proto)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 134, in __init__
-    _socket.socket.__init__(self, family, type, proto, fileno)
-OSError: [Errno 23] Too many open files in system
+  File "my_repost.py", line 187, in <module>
+    repost(driver1)
+  File "my_repost.py", line 156, in repost
+    browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 349, in send_keys
+    'value': keys_to_typing(value)})
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 493, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.90)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
+

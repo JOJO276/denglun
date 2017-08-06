@@ -1,13 +1,98 @@
+[{'httpOnly': True, 'path': '/', 'value': '0a5332869f9f7d50d11d508ee601b980', 'name': '_T_WM', 'domain': '.weibo.cn', 'secure': False, 'expiry': 1504610256.38755}, {'httpOnly': True, 'path': '/', 'value': 'AooXWxE1C6Eva3dtP8F3-bzsnLGK22KABbTPMHxlZNe39CIRclL1Kvh7peIaMzx3rkHWDVKdYq3vMFFQRGjz1ho.', 'name': 'SCF', 'domain': '.weibo.cn', 'secure': False, 'expiry': 1817378261.746806}, {'httpOnly': False, 'path': '/', 'value': '1502018261', 'name': 'SSOLoginState', 'domain': '.weibo.cn', 'secure': False}, {'httpOnly': False, 'path': '/', 'value': 'uicode%3D20000174', 'name': 'M_WEIBOCN_PARAMS', 'domain': '.weibo.cn', 'secure': False, 'expiry': 1502018862.079043}, {'httpOnly': False, 'path': '/', 'value': '06ZFny56RN2PhY', 'name': 'SUHB', 'domain': '.weibo.cn', 'secure': False, 'expiry': 1533554261.874663}, {'httpOnly': True, 'path': '/', 'value': '_2A250goqFDeRhGeBN61ER8inJwjiIHXVXjBbNrDV6PUJbkdANLVCkkW1E0vL9C4CDLb_ApSzrC0Q5qxFn8Q..', 'name': 'SUB', 'domain': '.weibo.cn', 'secure': False, 'expiry': 1533554261.873534}]
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-1")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-2")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-3")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-4")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-5")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-6")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-7")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-8")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-9")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-1")>, <selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-2")>, <selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-3")>, <selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-4")>, <selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-5")>, <selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-6")>, <selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-7")>, <selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-8")>, <selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-9")>, <selenium.webdriver.remote.webelement.WebElement (session="17a87bc195b60b6871a7c079eabc1743", element="0.393832932067391-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:37:51
-冻结条数：102
-伦哥说君宝一共伦了102条微博，还要加油哟
-冻结时间：2017-08-06 02:32:33
-解封时间：2017-08-06 06:32:33
-伦哥：好棒！第1次运行了
-运行时间：2017-08-06 06:32:33
-冻结条数：102
-伦哥说君宝一共伦了102条微博，还要加油哟
-冻结时间：2017-08-06 07:27:47
+运行时间：2017-08-06 19:17:43
+1
+False
+2
+False
+3
+False
+4
+False
+5
+False
+6
+False
+7
+False
+8
+False
+9
+False
+10
+False
+11
+False
+12
+False
+13
+False
+14
+False
+15
+False
+16
+False
+17
+False
+18
+False
+19
+False
+20
+False
+21
+False
+22
+False
+23
+False
+24
+False
+25
+False
+26
+False
+27
+False
+28
+False
+29
+False
+30
+False
+31
+False
+32
+False
+33
+False
+34
+False
+35
+False
+36
+False
+37
+False
+38
+False
+Traceback (most recent call last):
+  File "my_repost.py", line 187, in <module>
+    repost(driver1)
+  File "my_repost.py", line 156, in repost
+    browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 349, in send_keys
+    'value': keys_to_typing(value)})
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 493, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.90)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
+

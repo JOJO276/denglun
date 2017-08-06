@@ -1,30 +1,26 @@
+[{'httpOnly': False, 'path': '/', 'domain': '.weibo.cn', 'name': 'SSOLoginState', 'value': '1502019334', 'secure': False}, {'expiry': 1533555335.078349, 'httpOnly': False, 'path': '/', 'domain': '.weibo.cn', 'name': 'SUHB', 'value': '0M2FdV1FHa_mNL', 'secure': False}, {'expiry': 1533555335.077023, 'httpOnly': True, 'path': '/', 'domain': '.weibo.cn', 'name': 'SUB', 'value': '_2A250go9WDeRhGeBN61ER9y3MyDmIHXVXjBEerDV6PUJbkdAKLVP4kW2iFBW6MQh-egyn2dwg6DxQj7_ISA..', 'secure': False}, {'expiry': 1817379334.725939, 'httpOnly': True, 'path': '/', 'domain': '.weibo.cn', 'name': 'SCF', 'value': 'Al_36I7yiglyQAsA4ThLwMilQ_1xjRw6StAtH8NMrN9LUsXsvQMFBbpLMVhpAAAmlnBpBBQwv6uIYg7AcGPhqg0.', 'secure': False}, {'expiry': 1504611319.208222, 'httpOnly': True, 'path': '/', 'domain': '.weibo.cn', 'name': '_T_WM', 'value': '75ae4625334b4ba813d7ee43fa7a273c', 'secure': False}]
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-1")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-2")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-3")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-4")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-5")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-6")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-7")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-8")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-9")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-1")>, <selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-2")>, <selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-3")>, <selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-4")>, <selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-5")>, <selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-6")>, <selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-7")>, <selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-8")>, <selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-9")>, <selenium.webdriver.remote.webelement.WebElement (session="d70baabf2716476f6ea77d24984b53c9", element="0.5661510515610146-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:55:21
+运行时间：2017-08-06 19:35:49
+1
+False
+2
+False
 Traceback (most recent call last):
-  File "test_repost_new.py", line 253, in <module>
+  File "my_repost.py", line 187, in <module>
     repost(driver1)
-  File "test_repost_new.py", line 209, in repost
-    browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 't')
+  File "my_repost.py", line 146, in repost
+    text = browser.find_element_by_tag_name('textarea')
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
     return self.find_element(by=By.TAG_NAME, value=name)
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
     'value': value})['value']
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
-    response = self.command_executor.execute(driver_command, params)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
-    return self._request(command_info[0], url, body=data)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 487, in _request
-    self._conn.request(method, parsed_url.path, body, headers)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1083, in request
-    self._send_request(method, url, body, headers)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1128, in _send_request
-    self.endheaders(body)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1079, in endheaders
-    self._send_output(message_body)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 913, in _send_output
-    self.send(message_body)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 885, in send
-    self.sock.sendall(data)
-BrokenPipeError: [Errno 32] Broken pipe
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"textarea"}
+  (Session info: chrome=60.0.3112.90)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
+

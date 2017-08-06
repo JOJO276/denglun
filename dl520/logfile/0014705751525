@@ -1,27 +1,170 @@
+[{'value': '1502018533', 'domain': '.weibo.cn', 'path': '/', 'name': 'SSOLoginState', 'secure': False, 'httpOnly': False}, {'expiry': 1533554533.336381, 'domain': '.weibo.cn', 'path': '/', 'value': '0XDlCKP5Q76fUm', 'name': 'SUHB', 'secure': False, 'httpOnly': False}, {'expiry': 1817378533.33721, 'domain': '.weibo.cn', 'path': '/', 'value': 'AkLgciL4ZV2YFYEBGnlTPWGy6hG1kXnxNJtmZV_SM5baM2bMiNrtqYQzE3yHCr7jIFzUzXF7mrobH-n8--jnw9E.', 'name': 'SCF', 'secure': False, 'httpOnly': True}, {'expiry': 1533554533.334677, 'domain': '.weibo.cn', 'path': '/', 'value': '_2A250gou1DeRhGeBN61ER9C_IyzSIHXVXjBX9rDV6PUJbkdANLUnskW0VxlvoGPyiFpCheNv45XuJyDw8Gg..', 'name': 'SUB', 'secure': False, 'httpOnly': True}, {'expiry': 1504610528.030715, 'domain': '.weibo.cn', 'path': '/', 'value': '7421609b1507893108516751266cec83', 'name': '_T_WM', 'secure': False, 'httpOnly': True}]
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-1")>, <selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-2")>, <selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-3")>, <selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-4")>, <selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-5")>, <selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-6")>, <selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-7")>, <selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-8")>, <selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-9")>, <selenium.webdriver.remote.webelement.WebElement (session="f4bcd5baacc25729b82774d9e22eb7da", element="0.6637761220952489-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-1")>, <selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-2")>, <selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-3")>, <selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-4")>, <selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-5")>, <selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-6")>, <selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-7")>, <selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-8")>, <selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-9")>, <selenium.webdriver.remote.webelement.WebElement (session="ad6d9f805512845db9b112003f8908b6", element="0.7497149982801652-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:42:23
-冻结条数：102
-伦哥说君宝一共伦了102条微博，还要加油哟
-冻结时间：2017-08-06 02:37:40
-解封时间：2017-08-06 06:37:40
-伦哥：好棒！第1次运行了
-运行时间：2017-08-06 06:37:40
-Traceback (most recent call last):
-  File "test_repost_new.py", line 250, in <module>
-    #        print('33333333')
-  File "test_repost_new.py", line 216, in repost
-    text.send_keys(line)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 433, in find_element_by_class_name
-    return self.find_element(by=By.CLASS_NAME, value=name)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
-    'value': value})['value']
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
-    self.error_handler.check_response(response)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: chrome not reachable
-  (Session info: chrome=60.0.3112.90)
-  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
-
+运行时间：2017-08-06 19:22:15
+1
+False
+2
+False
+3
+False
+4
+False
+5
+False
+6
+False
+7
+False
+8
+False
+9
+False
+10
+False
+11
+False
+12
+False
+13
+False
+14
+False
+15
+False
+16
+False
+17
+False
+18
+False
+19
+False
+20
+False
+21
+False
+22
+False
+23
+False
+24
+False
+25
+False
+26
+False
+27
+False
+28
+False
+29
+False
+30
+False
+31
+False
+32
+False
+33
+False
+34
+False
+35
+False
+36
+False
+37
+False
+38
+False
+39
+False
+40
+False
+41
+False
+42
+False
+43
+False
+44
+False
+45
+False
+46
+False
+47
+False
+48
+False
+49
+False
+50
+False
+51
+False
+52
+False
+53
+False
+54
+False
+55
+False
+56
+False
+57
+False
+58
+False
+59
+False
+60
+False
+61
+False
+62
+False
+63
+False
+64
+False
+65
+False
+66
+False
+67
+False
+68
+False
+69
+False
+70
+False
+71
+False
+72
+False
+73
+False
+74
+False
+75
+False
+76
+False
+77
+False
+78
+False
+79
+False
+80
+False
+81
+False
+冻结条数：81
+伦哥说君宝这次伦了81条博，一共伦了81条博了，还要加油哟
+冻结时间：2017-08-06 20:12:26

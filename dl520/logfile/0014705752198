@@ -1,18 +1,50 @@
+[{'secure': False, 'value': '1add8ff62af55ec863a3d77e99d7e2ad', 'name': '_T_WM', 'domain': '.weibo.cn', 'expiry': 1504610859.142935, 'path': '/', 'httpOnly': True}, {'secure': False, 'value': 'AqWgVnb1LNkBQwJUUH3FDN0XVP89WpBjRCrBN03ReWTEI2r1i2-d5UF-k2ymk1SMC0p9AP3Hh7vTgiOdj6amO70.', 'name': 'SCF', 'domain': '.weibo.cn', 'expiry': 1817378866.157992, 'path': '/', 'httpOnly': True}, {'secure': False, 'value': '1502018866', 'name': 'SSOLoginState', 'domain': '.weibo.cn', 'httpOnly': False, 'path': '/'}, {'secure': False, 'value': 'uicode%3D20000174', 'name': 'M_WEIBOCN_PARAMS', 'domain': '.weibo.cn', 'expiry': 1502019466.551452, 'path': '/', 'httpOnly': False}, {'secure': False, 'value': '0cSnl1U-nz9Je5', 'name': 'SUHB', 'domain': '.weibo.cn', 'expiry': 1533554866.262808, 'path': '/', 'httpOnly': False}, {'secure': False, 'value': '_2A250go1iDeRhGeBN61ER9SrOyDWIHXVXjBMqrDV6PUJbkdAKLVDbkW0n4t-kvR_4n6ED0O8If8DXXD4_fw..', 'name': 'SUB', 'domain': '.weibo.cn', 'expiry': 1533554866.261221, 'path': '/', 'httpOnly': True}]
+判断页面1成功 0失败  结果是=1
+[<selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-1")>, <selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-2")>, <selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-3")>, <selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-4")>, <selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-5")>, <selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-6")>, <selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-7")>, <selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-8")>, <selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-9")>, <selenium.webdriver.remote.webelement.WebElement (session="d63315ff86659dabc22d2a4fb29de2db", element="0.22676081509516122-10")>]
+伦哥：好棒！第1次运行了
+运行时间：2017-08-06 19:27:48
+1
+False
+2
+False
+3
+False
+4
+False
+5
+False
+6
+False
+7
+False
+8
+False
+9
+False
+10
+False
+11
+False
+12
+False
+13
+False
+14
 Traceback (most recent call last):
-  File "test_repost_new.py", line 239, in <module>
-    driver1 = initWork()
-  File "test_repost_new.py", line 24, in initWork
-    brower = webdriver.Chrome(chromedriver)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/chrome/webdriver.py", line 69, in __init__
-    desired_capabilities=desired_capabilities)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 98, in __init__
-    self.start_session(desired_capabilities, browser_profile)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 188, in start_session
-    response = self.execute(Command.NEW_SESSION, parameters)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
-    self.error_handler.check_response(response)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: crashed
-  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
-
+  File "my_repost.py", line 187, in <module>
+  File "my_repost.py", line 159, in repost
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/support/expected_conditions.py", line 339, in __call__
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/common/alert.py", line 69, in text
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 487, in _request
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1083, in request
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1128, in _send_request
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1079, in endheaders
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 911, in _send_output
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 854, in send
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 826, in connect
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 707, in create_connection
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 693, in create_connection
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 134, in __init__
+OSError: [Errno 23] Too many open files in system

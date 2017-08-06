@@ -1,27 +1,54 @@
+[{'secure': False, 'value': '1502018753', 'httpOnly': False, 'name': 'SSOLoginState', 'domain': '.weibo.cn', 'path': '/'}, {'secure': False, 'value': '0idrvtcsouOZ8g', 'httpOnly': False, 'name': 'SUHB', 'expiry': 1533554753.67569, 'domain': '.weibo.cn', 'path': '/'}, {'secure': False, 'value': '_2A250goyRDeRhGeBN61ER9CfLzz2IHXVXjBTZrDV6PUJbkdANLU7xkW1J_zcAc2h2Hf8ltAXY9LxiEGqPbQ..', 'httpOnly': True, 'name': 'SUB', 'expiry': 1533554753.67505, 'domain': '.weibo.cn', 'path': '/'}, {'secure': False, 'value': 'Ao_Dp8sW3USo6TD1Cb1U5y0f5Yg4r6rmd0sZWKfxU5pe8N4M4rz5n3ZLPmzRgsnycdzmGfTTsQGz35Zvube5TyI.', 'httpOnly': True, 'name': 'SCF', 'expiry': 1817378753.562641, 'domain': '.weibo.cn', 'path': '/'}, {'secure': False, 'value': '768a79fcc46f5c11724d63dc239c7da8', 'httpOnly': True, 'name': '_T_WM', 'expiry': 1504610747.072079, 'domain': '.weibo.cn', 'path': '/'}]
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-1")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-2")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-3")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-4")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-5")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-6")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-7")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-8")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-9")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-1")>, <selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-2")>, <selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-3")>, <selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-4")>, <selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-5")>, <selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-6")>, <selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-7")>, <selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-8")>, <selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-9")>, <selenium.webdriver.remote.webelement.WebElement (session="811f0222f142da638504978c0892d322", element="0.1246336153071057-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:45:52
-冻结条数：102
-伦哥说君宝一共伦了102条微博，还要加油哟
-冻结时间：2017-08-06 02:40:48
-解封时间：2017-08-06 06:40:47
-伦哥：好棒！第1次运行了
-运行时间：2017-08-06 06:40:47
+运行时间：2017-08-06 19:25:56
+1
+False
+2
+False
+3
+False
+4
+False
+5
+False
+6
+False
+7
+False
+8
+False
+9
+False
+10
+False
+11
+False
+12
+False
+13
+False
+14
+False
+15
+False
+16
+False
 Traceback (most recent call last):
-  File "test_repost_new.py", line 253, in <module>
+  File "my_repost.py", line 187, in <module>
     repost(driver1)
-  File "test_repost_new.py", line 219, in repost
-    send = browser.find_element_by_class_name('m-send-btn')
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 433, in find_element_by_class_name
-    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "my_repost.py", line 146, in repost
+    text = browser.find_element_by_tag_name('textarea')
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
+    return self.find_element(by=By.TAG_NAME, value=name)
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
     'value': value})['value']
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
     self.error_handler.check_response(response)
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"textarea"}
   (Session info: chrome=60.0.3112.90)
   (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
 

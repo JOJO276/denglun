@@ -1,21 +1,77 @@
+[{'name': '_T_WM', 'path': '/', 'secure': False, 'value': 'fe6abd9cd7e6e9878d6a32a67bed5ab0', 'expiry': 1504610469.695502, 'httpOnly': True, 'domain': '.weibo.cn'}, {'name': 'SCF', 'path': '/', 'secure': False, 'value': 'Atw0qg146fU6Okq4-sh-blxzNNQZei3nidsGYlN994AB2u_35dJ7qSPLZAp2YV0GcbRcBbGYXoMA3_QVTk1GcdQ.', 'expiry': 1817378475.539767, 'httpOnly': True, 'domain': '.weibo.cn'}, {'name': 'SSOLoginState', 'path': '/', 'secure': False, 'value': '1502018475', 'httpOnly': False, 'domain': '.weibo.cn'}, {'name': 'M_WEIBOCN_PARAMS', 'path': '/', 'secure': False, 'value': 'uicode%3D20000174', 'expiry': 1502019076.052941, 'httpOnly': False, 'domain': '.weibo.cn'}, {'name': 'SUHB', 'path': '/', 'secure': False, 'value': '0D-FXzQobY9mhh', 'expiry': 1533554475.818431, 'httpOnly': False, 'domain': '.weibo.cn'}, {'name': 'SUB', 'path': '/', 'secure': False, 'value': '_2A250gov7DeRhGeBM4lsT9i7EwjqIHXVXjBWzrDV6PUJbkdAKLWP8kW01zk2cAL_P-jRY7M9NWAQ-M463dQ..', 'expiry': 1533554475.816022, 'httpOnly': True, 'domain': '.weibo.cn'}]
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-1")>, <selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-2")>, <selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-3")>, <selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-4")>, <selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-5")>, <selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-6")>, <selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-7")>, <selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-8")>, <selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-9")>, <selenium.webdriver.remote.webelement.WebElement (session="727acbd147109439fc5d160fdffc5635", element="0.9492414585601596-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-1")>, <selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-2")>, <selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-3")>, <selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-4")>, <selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-5")>, <selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-6")>, <selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-7")>, <selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-8")>, <selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-9")>, <selenium.webdriver.remote.webelement.WebElement (session="c1a1e0e7edb01c2530c684942130925f", element="0.17272151934122326-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 01:41:20
+运行时间：2017-08-06 19:21:19
+1
+False
+2
+False
+3
+False
+4
+False
+5
+False
+6
+False
+7
+False
+8
+False
+9
+False
+10
+False
+11
+False
+12
+False
+13
+False
+14
+False
+15
+False
+16
+False
+17
+False
+18
+False
+19
+False
+20
+False
+21
+False
+22
+False
+23
+False
+24
+False
 Traceback (most recent call last):
-  File "test_repost_new.py", line 250, in <module>
-    #        print('33333333')
-  File "test_repost_new.py", line 209, in repost
-    browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 't')
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
-    return self.find_element(by=By.TAG_NAME, value=name)
+  File "my_repost.py", line 187, in <module>
+    repost(driver1)
+  File "my_repost.py", line 153, in repost
+    send = browser.find_element_by_class_name('m-send-btn')
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 433, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
     'value': value})['value']
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
-    self.error_handler.check_response(response)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"textarea"}
-  (Session info: chrome=60.0.3112.90)
-  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
-
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 488, in _request
+    resp = self._conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1174, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 282, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 243, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 571, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 54] Connection reset by peer
