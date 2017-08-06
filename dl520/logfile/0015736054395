@@ -1,0 +1,13 @@
+判断页面1成功 0失败  结果是=1
+[<selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-1")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-2")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-3")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-4")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-5")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-6")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-7")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-8")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-9")>, <selenium.webdriver.remote.webelement.WebElement (session="314fe8a06733494ab758435431cf9613", element="0.8954843655062306-10")>]
+伦哥：好棒！第1次运行了
+运行时间：2017-08-06 01:37:51
+冻结条数：102
+伦哥说君宝一共伦了102条微博，还要加油哟
+冻结时间：2017-08-06 02:32:33
+解封时间：2017-08-06 06:32:33
+伦哥：好棒！第1次运行了
+运行时间：2017-08-06 06:32:33
+冻结条数：102
+伦哥说君宝一共伦了102条微博，还要加油哟
+冻结时间：2017-08-06 07:27:47

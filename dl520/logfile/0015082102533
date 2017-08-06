@@ -1,0 +1,27 @@
+判断页面1成功 0失败  结果是=1
+[<selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-1")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-2")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-3")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-4")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-5")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-6")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-7")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-8")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-9")>, <selenium.webdriver.remote.webelement.WebElement (session="03036dcbbb9a6b4e30758333cded3c9c", element="0.8374483404344364-10")>]
+伦哥：好棒！第1次运行了
+运行时间：2017-08-06 01:45:52
+冻结条数：102
+伦哥说君宝一共伦了102条微博，还要加油哟
+冻结时间：2017-08-06 02:40:48
+解封时间：2017-08-06 06:40:47
+伦哥：好棒！第1次运行了
+运行时间：2017-08-06 06:40:47
+Traceback (most recent call last):
+  File "test_repost_new.py", line 253, in <module>
+    repost(driver1)
+  File "test_repost_new.py", line 219, in repost
+    send = browser.find_element_by_class_name('m-send-btn')
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 433, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=60.0.3112.90)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
+

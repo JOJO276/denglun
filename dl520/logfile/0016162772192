@@ -1,0 +1,28 @@
+判断页面1成功 0失败  结果是=1
+[<selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-1")>, <selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-2")>, <selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-3")>, <selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-4")>, <selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-5")>, <selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-6")>, <selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-7")>, <selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-8")>, <selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-9")>, <selenium.webdriver.remote.webelement.WebElement (session="3db8e988728de195d6beee650af8f41a", element="0.8357333232953179-10")>]
+伦哥：好棒！第1次运行了
+运行时间：2017-08-06 00:56:53
+Traceback (most recent call last):
+  File "test_repost_new.py", line 245, in <module>
+    cookie3 = driver1.get_cookies()
+  File "test_repost_new.py", line 204, in repost
+    for id in idSet:
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
+    return self.find_element(by=By.TAG_NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 488, in _request
+    resp = self._conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1174, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 282, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 243, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 571, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 54] Connection reset by peer

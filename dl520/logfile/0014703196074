@@ -1,0 +1,30 @@
+判断页面1成功 0失败  结果是=1
+[<selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-1")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-2")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-3")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-4")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-5")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-6")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-7")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-8")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-9")>, <selenium.webdriver.remote.webelement.WebElement (session="db20d1e280fed78b50c38663b84c6989", element="0.9549254339530562-10")>]
+伦哥：好棒！第1次运行了
+运行时间：2017-08-06 01:55:21
+Traceback (most recent call last):
+  File "test_repost_new.py", line 253, in <module>
+    repost(driver1)
+  File "test_repost_new.py", line 209, in repost
+    browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 't')
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
+    return self.find_element(by=By.TAG_NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 487, in _request
+    self._conn.request(method, parsed_url.path, body, headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1083, in request
+    self._send_request(method, url, body, headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1079, in endheaders
+    self._send_output(message_body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 913, in _send_output
+    self.send(message_body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 885, in send
+    self.sock.sendall(data)
+BrokenPipeError: [Errno 32] Broken pipe
