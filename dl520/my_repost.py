@@ -19,9 +19,13 @@ from selenium.webdriver.support import expected_conditions as EC
 # 初始化配置
 def initWork():
     # 初始化配置根据自己chromedriver位置做相应的修改
-    chromedriver = "/Applications/Google Chrome.app/chromedriver"
-    os.environ["webdriver.chrome.driver"] = chromedriver
-    brower = webdriver.Chrome(chromedriver)
+
+    # chromedriver = "/Applications/Google Chrome.app/chromedriver"
+    # os.environ["webdriver.chrome.driver"] = chromedriver
+   # brower = webdriver.Chrome(chromedriver)
+   #  chromedriver = "/Applications/Firefox.app"
+   #  os.environ["webdriver.firefox.driver"] = chromedriver
+    brower = webdriver.Firefox()
     return brower
 
 
@@ -112,7 +116,11 @@ def isPresent():
 #'4136242033629515',2
 def repost(browser):
 #    idSet = ['4136242172004022', '4136242033629515', '4137563058884003']
-    idSet = ['4137856689393664', '4137856425867331', '4137856291796034']
+# '4138143815514662', '4137856689393664',
+#              '4137856425867331', '4137856291796034', # xuantou
+# lunge
+    idSet = ['4136242172004022', '4136242033629515',
+             '4137563058884003', '4138599765118059']
     result = EC.alert_is_present()(browser)
 
     flag = 1
@@ -173,7 +181,7 @@ def repost(browser):
 if __name__ == '__main__':
     # 定义自己的用户名密码
     usrname = sys.argv[1]
-    # usrname = 17152569488
+    # usrname = 13056752431 #17152569488
     # pwd = 'youxia5533'
     # usrname = "iacen@icloud.com"
     pwd = sys.argv[2]

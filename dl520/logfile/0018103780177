@@ -1,8 +1,8 @@
-[{'expiry': 1504610439.310336, 'path': '/', 'httpOnly': True, 'name': '_T_WM', 'value': '062e6b25242d660a58ba0ec6fe2923ad', 'secure': False, 'domain': '.weibo.cn'}, {'expiry': 1817378447.203218, 'path': '/', 'httpOnly': True, 'name': 'SCF', 'value': 'AqUWle2RimZcQsc66OmoID7RwYFcorxSTHTfNnRzGANh9reorORWtcr1QU1EZd0AtC5LXSTfIpEPKMvUrpv62rw.', 'secure': False, 'domain': '.weibo.cn'}, {'path': '/', 'httpOnly': False, 'name': 'SSOLoginState', 'value': '1502018447', 'secure': False, 'domain': '.weibo.cn'}, {'expiry': 1502019047.608618, 'path': '/', 'httpOnly': False, 'name': 'M_WEIBOCN_PARAMS', 'value': 'uicode%3D20000174', 'secure': False, 'domain': '.weibo.cn'}, {'expiry': 1533554447.30194, 'path': '/', 'httpOnly': False, 'name': 'SUHB', 'value': '0d4-RrpA2AJbq2', 'secure': False, 'domain': '.weibo.cn'}, {'expiry': 1533554447.30065, 'path': '/', 'httpOnly': True, 'name': 'SUB', 'value': '_2A250govfDeRhGeBN61ER8ybOyzSIHXVXjBWXrDV6PUJbkdAKLWatkW2iF5cQ15cBYfTzWQgp5uwWXTeDWg..', 'secure': False, 'domain': '.weibo.cn'}]
+[{'name': 'SSOLoginState', 'value': '1502376838', 'httpOnly': False, 'secure': False, 'domain': '.weibo.cn', 'path': '/'}, {'name': 'SUHB', 'expiry': 1533912838.223695, 'value': '0pHxwyG_MY04S9', 'httpOnly': False, 'secure': False, 'domain': '.weibo.cn', 'path': '/'}, {'name': 'SUB', 'expiry': 1533912838.223214, 'value': '_2A250iAPWDeRhGeBN61ER8ybOyzSIHXVUcq2erDV6PUJbkdANLW-jkW1USIjx7YN_3v9XPBw4qd0JutMyKA..', 'httpOnly': True, 'secure': False, 'domain': '.weibo.cn', 'path': '/'}, {'name': 'SCF', 'expiry': 1817736838.094609, 'value': 'Ak3M3fzPB1su1T1G9-grRhd5tiFsttC3iBo4-d2mVDrcZeZLiZIEKJmZbPTMjPXW6sPPy7A-qreTkTngTXajFJM.', 'httpOnly': True, 'secure': False, 'domain': '.weibo.cn', 'path': '/'}, {'name': '_T_WM', 'expiry': 1504968832.306932, 'value': '3e43cd44e98efe8d86e52ebf2fdf82cc', 'httpOnly': True, 'secure': False, 'domain': '.weibo.cn', 'path': '/'}]
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-1")>, <selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-2")>, <selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-3")>, <selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-4")>, <selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-5")>, <selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-6")>, <selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-7")>, <selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-8")>, <selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-9")>, <selenium.webdriver.remote.webelement.WebElement (session="654bb23933617552f4bfc4f210b425a0", element="0.4810906689812644-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-1")>, <selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-2")>, <selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-3")>, <selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-4")>, <selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-5")>, <selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-6")>, <selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-7")>, <selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-8")>, <selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-9")>, <selenium.webdriver.remote.webelement.WebElement (session="8e4b8dc9565f8f7bfbb1597b747bd4e0", element="0.4723857170671364-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 19:20:49
+运行时间：2017-08-10 22:53:59
 1
 False
 2
@@ -47,31 +47,20 @@ False
 False
 22
 False
-23
-False
-24
-False
 Traceback (most recent call last):
-  File "my_repost.py", line 187, in <module>
+  File "my_repost.py", line 192, in <module>
     repost(driver1)
-  File "my_repost.py", line 156, in repost
-    browser.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
+  File "my_repost.py", line 151, in repost
+    text = browser.find_element_by_tag_name('textarea')
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
     return self.find_element(by=By.TAG_NAME, value=name)
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
     'value': value})['value']
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
-    response = self.command_executor.execute(driver_command, params)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
-    return self._request(command_info[0], url, body=data)
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 488, in _request
-    resp = self._conn.getresponse()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1174, in getresponse
-    response.begin()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 282, in begin
-    version, status, reason = self._read_status()
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 243, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 571, in readinto
-    return self._sock.recv_into(b)
-ConnectionResetError: [Errno 54] Connection reset by peer
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 256, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"textarea"}
+  (Session info: chrome=60.0.3112.90)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
+

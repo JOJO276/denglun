@@ -1,9 +1,9 @@
-[{'expiry': 1504610347.755342, 'httpOnly': True, 'value': 'ba793d083d4e5a6481f5b2d667a66fec', 'domain': '.weibo.cn', 'secure': False, 'path': '/', 'name': '_T_WM'}]
+[{'domain': '.weibo.cn', 'expiry': 1504968742.165775, 'path': '/', 'secure': False, 'value': '2c75a011e77150c70cfabf5c97854247', 'httpOnly': True, 'name': '_T_WM'}]
  (￣y▽￣)╭可能登录失败了手动登录一下吧
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-1")>, <selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-2")>, <selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-3")>, <selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-4")>, <selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-5")>, <selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-6")>, <selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-7")>, <selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-8")>, <selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-9")>, <selenium.webdriver.remote.webelement.WebElement (session="211d2783e772d8bf41d558edb88c868a", element="0.9661224348463544-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-1")>, <selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-2")>, <selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-3")>, <selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-4")>, <selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-5")>, <selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-6")>, <selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-7")>, <selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-8")>, <selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-9")>, <selenium.webdriver.remote.webelement.WebElement (session="52d82a81981fbed98198182383cfa352", element="0.37214581866331975-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 19:19:43
+运行时间：2017-08-10 22:52:56
 1
 False
 2
@@ -52,18 +52,10 @@ False
 False
 24
 False
-25
-False
-26
-False
-27
-False
-28
-False
 Traceback (most recent call last):
-  File "my_repost.py", line 187, in <module>
+  File "my_repost.py", line 192, in <module>
     repost(driver1)
-  File "my_repost.py", line 146, in repost
+  File "my_repost.py", line 151, in repost
     text = browser.find_element_by_tag_name('textarea')
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
     return self.find_element(by=By.TAG_NAME, value=name)

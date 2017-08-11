@@ -1,170 +1,37 @@
-[{'httpOnly': False, 'domain': '.weibo.cn', 'name': 'SSOLoginState', 'path': '/', 'secure': False, 'value': '1502019250'}, {'httpOnly': False, 'domain': '.weibo.cn', 'name': 'SUHB', 'path': '/', 'expiry': 1533555249.959207, 'secure': False, 'value': '0gHi33TAbXOuK9'}, {'httpOnly': True, 'domain': '.weibo.cn', 'name': 'SUB', 'path': '/', 'expiry': 1533555243.957893, 'secure': False, 'value': '_2A250go78DeRhGeBM4lsT9ybPwj6IHXVXjBK0rDV6PUJbkdAKLXbTkW06DCoG1lIUGcbT4KnQcKvTQWU-XQ..'}, {'httpOnly': True, 'domain': '.weibo.cn', 'name': 'SCF', 'path': '/', 'expiry': 1817379249.853483, 'secure': False, 'value': 'ArmI7KrUG5vwbJR6ZosvEofVJFx2z1gPr3gPWzuyZGs-wr3J1h31THhsUcPxn4_t1yds3GhFW1KjK0ru-kkfBNU.'}, {'httpOnly': True, 'domain': '.weibo.cn', 'name': '_T_WM', 'path': '/', 'expiry': 1504611240.348613, 'secure': False, 'value': '38f2374c2cab62db03ee3687a054f4e6'}]
+[{'domain': '.weibo.cn', 'name': 'SSOLoginState', 'secure': False, 'httpOnly': False, 'value': '1502377621', 'path': '/'}, {'domain': '.weibo.cn', 'expiry': 1533913621.697319, 'name': 'SUHB', 'secure': False, 'httpOnly': False, 'value': '0C1Ck7AwsgwpGz', 'path': '/'}, {'domain': '.weibo.cn', 'expiry': 1533913621.696637, 'name': 'SUB', 'secure': False, 'httpOnly': True, 'value': '_2A250iAbFDeRhGeBM4lsT9ybPwj6IHXVUcqqNrDV6PUJbkdAKLVTBkW1lbIP9KPKxUL1nSAUYuZ9YIjYrDw..', 'path': '/'}, {'domain': '.weibo.cn', 'expiry': 1817737621.598345, 'name': 'SCF', 'secure': False, 'httpOnly': True, 'value': 'AsUuM2S2w7nhgUB2NHdyAvayPBPF8gjIAftRx_zTckK-UbekAf-0MYgUP2SIaLYW7IMM9J19okf3nxOwf4j3Ywg.', 'path': '/'}, {'domain': '.weibo.cn', 'expiry': 1504969615.803338, 'name': '_T_WM', 'secure': False, 'httpOnly': True, 'value': 'cd8c874af72fa9c9d9695b6b47c830f3', 'path': '/'}]
 判断页面1成功 0失败  结果是=1
-[<selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-1")>, <selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-2")>, <selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-3")>, <selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-4")>, <selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-5")>, <selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-6")>, <selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-7")>, <selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-8")>, <selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-9")>, <selenium.webdriver.remote.webelement.WebElement (session="63937033737d179e1f0ca69b81aef66e", element="0.18542050941445187-10")>]
+[<selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-1")>, <selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-2")>, <selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-3")>, <selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-4")>, <selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-5")>, <selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-6")>, <selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-7")>, <selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-8")>, <selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-9")>, <selenium.webdriver.remote.webelement.WebElement (session="62a05f398bc3255382d455d008d5bfc5", element="0.5364149317625189-10")>]
 伦哥：好棒！第1次运行了
-运行时间：2017-08-06 19:34:14
+运行时间：2017-08-10 23:07:03
 1
 False
 2
 False
 3
 False
-4
-False
-5
-False
-6
-False
-7
-False
-8
-False
-9
-False
-10
-False
-11
-False
-12
-False
-13
-False
-14
-False
-15
-False
-16
-False
-17
-False
-18
-False
-19
-False
-20
-False
-21
-False
-22
-False
-23
-False
-24
-False
-25
-False
-26
-False
-27
-False
-28
-False
-29
-False
-30
-False
-31
-False
-32
-False
-33
-False
-34
-False
-35
-False
-36
-False
-37
-False
-38
-False
-39
-False
-40
-False
-41
-False
-42
-False
-43
-False
-44
-False
-45
-False
-46
-False
-47
-False
-48
-False
-49
-False
-50
-False
-51
-False
-52
-False
-53
-False
-54
-False
-55
-False
-56
-False
-57
-False
-58
-False
-59
-False
-60
-False
-61
-False
-62
-False
-63
-False
-64
-False
-65
-False
-66
-False
-67
-False
-68
-False
-69
-False
-70
-False
-71
-False
-72
-False
-73
-False
-74
-False
-75
-False
-76
-False
-77
-False
-78
-False
-79
-False
-80
-False
-81
-False
-冻结条数：81
-伦哥说君宝这次伦了81条博，一共伦了81条博了，还要加油哟
-冻结时间：2017-08-06 20:22:28
+Traceback (most recent call last):
+  File "my_repost.py", line 192, in <module>
+    repost(driver1)
+  File "my_repost.py", line 151, in repost
+    text = browser.find_element_by_tag_name('textarea')
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 409, in find_element_by_tag_name
+    return self.find_element(by=By.TAG_NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 791, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 254, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py", line 487, in _request
+    self._conn.request(method, parsed_url.path, body, headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1083, in request
+    self._send_request(method, url, body, headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1128, in _send_request
+    self.endheaders(body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1079, in endheaders
+    self._send_output(message_body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 913, in _send_output
+    self.send(message_body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 885, in send
+    self.sock.sendall(data)
+BrokenPipeError: [Errno 32] Broken pipe

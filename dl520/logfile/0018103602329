@@ -1,5 +1,5 @@
 Traceback (most recent call last):
-  File "my_repost.py", line 180, in <module>
+  File "my_repost.py", line 185, in <module>
     driver1 = initWork()
   File "my_repost.py", line 24, in initWork
     brower = webdriver.Chrome(chromedriver)
@@ -13,6 +13,6 @@ Traceback (most recent call last):
     self.error_handler.check_response(response)
   File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally
+selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: crashed
   (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64)
 
